@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-image: url(bluey.jpg);
+  box-shadow: 0 0 25px rgba(237, 10, 50, 0.4);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(39, 6, 38);
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a3a7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #044b52;
+}
+
+.resume {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.resume h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.resume p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.resume img {
+  display: block;
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.resume [contenteditable="true"] {
+  border: 1px dashed #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  min-height: 20px;
+}
+
+.resume [contenteditable="true"]:focus {
+  outline: 2px solid #28a3a7;
+}
